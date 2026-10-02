@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* --------------------------------------------
+   インターン募集
+-------------------------------------------- */
+.intern-recommend {
+  color: #4B3535;
+  font-size: 1.375em;
+  font-weight: 900;
+}
+
+.intern-recommend__icon {
+  margin-right: 0.2em;
+  font-size: 1.3em;
+}
+
+.intern-recommend__inner {
+  padding: 0 0.2em;
+  border-bottom: 1px solid currentColor;
+}
+
+.intern-recommend-area {
+  margin-top: 3em;
+}
+
+.intern-recommend-item {
+  width: 19em;
+}
+
+.intern-recommend-item__cnt {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -ms-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 19em;
+  height: 19em;
+  padding: 4.5em 1em 2em;
+  border-radius: 50%;
+  background: url(../../images/bg_rough_touch.png);
+}
+
+.intern-recommend-item__txt {
+  width: 100%;
+  color: #189240;
+  font-size: 1.125em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.intern-recommend-item__img {
+  width: 100%;
+  text-align: center;
+}
+
+.intern-recommend-item__img img {
+  width: 100px;
+}
+
+.intern-voice-item {
+  position: relative;
+  padding: 3em 2em 4em;
+  border: 2px solid #ddd;
+  border-bottom: 8px solid currentColor;
+  border-radius: 5px;
+  color: #4B3535;
+  font-size: 0.9375em;
+}
+
+.intern-voice-area--two .intern-voice-item {
+  width: 48%;
+}
+
+.intern-voice-area--three .intern-voice-item {
+  width: 31%;
+}
+
+.intern-voice-item .page-txt-item {
+  display: inline;
+  padding: 0.2em;
+  border-bottom: 2px solid #ddd;
+  line-height: 2em;
+}
+
+.intern-voice-item__name {
+  position: absolute;
+  right: 2em;
+  bottom: 1.5em;
+  margin-top: 1.5em;
+  font-weight: 500;
+  text-align: right;
+}
+
+.intern-schedule {
+  padding: 3em;
+  background: url(../../images/bg_rough_touch.png);
+}
+.intern-schedule + .intern-schedule {
+  margin-top: 3em;
+}
+
+.section h4.intern-schedule-ttl {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  width: 7em;
+  margin: 0 auto;
+  padding-right: 0;
+  padding-left: 1.6em;
+}
+
+.page-recruit-table--intern {
+  margin-top: 1em;
+}
+
+.intern-schedule__img {
+  margin-top: 3em;
+}
+
+.intern-schedule__img-item {
+  width: 40%;
+  margin-right: 2em;
+}
+.intern-schedule__img-item:last-of-type {
+  margin-right: 0;
+}
+
+.section table.page-recruit-table--intern th.page-recruit-table__ttl {
+  width: 10% !important;
+}
+
+.section table.page-recruit-table--intern .page-recruit-table__txt {
+  width: 20% !important;
+  color: #4B3535;
+  font-weight: bold;
+}
+
+.section table.page-recruit-table--intern .page-recruit-table__txt:nth-of-type(2n) {
+  width: 65% !important;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+.intern-main-copy {
+  width: 900px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1em 1em;
+  border-radius: 5px;
+  background-color: #cfe1e5;
+  color: #056C81;
+  font-size: 1.125em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.intern-main-photo {
+  margin-top: 3em;
+}
+
+.intern-main-photo__item {
+  width: 31%;
+}
+
+@media screen and (max-width: 1100px) {
+  /* インターン募集 */
+}
+
+@media screen and (max-width: 840px) {
+  /* インターン募集 */
+  .intern-recommend-item {
+    width: 15em;
+  }
+  .intern-recommend-item__cnt {
+    width: 15em;
+    height: 15em;
+  }
+  .intern-recommend-item__txt {
+    font-size: 1em;
+  }
+  .intern-recommend-item__img img {
+    width: 5em;
+    height: 5em;
+  }
+  .section table.page-recruit-table--intern th.page-recruit-table__ttl {
+    width: 15% !important;
+  }
+  .section table.page-recruit-table--intern .page-recruit-table__txt {
+    width: 30% !important;
+  }
+  .section table.page-recruit-table--intern .page-recruit-table__txt:nth-of-type(2n) {
+    width: 45% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* インターン募集 */
+  .intern-recommend {
+    font-size: 1.6em;
+  }
+  .intern-recommend-item + .intern-recommend-item {
+    margin-top: 3em;
+  }
+  .intern-recommend-item {
+    width: 24.5em;
+  }
+  .intern-recommend-item__cnt {
+    width: 24.5em;
+    height: 24.5em;
+    padding-top: 6.5em;
+    padding-bottom: 4em;
+  }
+  .intern-recommend-item__txt {
+    width: 100%;
+    height: auto;
+    font-size: 1.7em;
+  }
+  .intern-voice-item {
+    position: static;
+    padding-bottom: 2.5em;
+  }
+  .intern-voice-item + .intern-voice-item {
+    margin-top: 2em;
+  }
+  .intern-voice-area--two .intern-voice-item {
+    width: 100%;
+  }
+  .intern-voice-area--three .intern-voice-item {
+    width: 100%;
+  }
+  .intern-voice-item__name {
+    position: static;
+  }
+  .intern-schedule {
+    padding: 2em 1em 2em;
+  }
+  .intern-schedule__img-item + .intern-schedule__img-item {
+    margin-top: 2em;
+  }
+  .intern-schedule__img-item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section table.page-recruit-table--intern th.page-recruit-table__ttl {
+    display: block;
+    width: 100% !important;
+    height: 3em;
+    padding: 0.7em !important;
+    background-color: #fff;
+    text-align: center !important;
+  }
+  .section table.page-recruit-table--intern .page-recruit-table__txt {
+    display: block;
+    width: 100% !important;
+  }
+  .section table.page-recruit-table--intern .page-recruit-table__txt:nth-of-type(2n) {
+    display: block;
+    width: 100% !important;
+  }
+  .intern-main-copy {
+    text-align: left;
+  }
+  .intern-main-photo__item + .intern-main-photo__item {
+    margin-top: 2em;
+  }
+  .intern-main-photo__item {
+    width: 48%;
+  }
+  .intern-main-photo__item {
+    width: 100%;
+  }
+}

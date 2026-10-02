@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* --------------------------------------------
+   会社案内
+-------------------------------------------- */
+.company-philosophy {
+  width: 850px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company-philosophy__copy {
+  text-align: center;
+}
+
+.company-philosophy__cnt {
+  margin-top: 3em;
+}
+
+.company-philosophy__txt {
+  margin-top: 1.5em;
+}
+
+.company-philosophy__strong {
+  display: inline-block;
+  border-bottom: 1px solid #040000;
+  font-size: 1.125em;
+}
+
+.company-philosophy__sign {
+  margin-top: 2em;
+  font-size: 1.125em;
+  text-align: right;
+}
+
+@media screen and (max-width: 1100px) {
+  /* 会社案内 */
+}
+
+@media screen and (max-width: 840px) {
+  /* 会社案内 */
+}
+
+@media screen and (max-width: 480px) {
+  /* 会社案内 */
+  .company-philosophy__txt {
+    font-size: 1.125em;
+  }
+}

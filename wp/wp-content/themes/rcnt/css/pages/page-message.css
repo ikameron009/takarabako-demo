@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* --------------------------------------------
+   代表メッセージ
+-------------------------------------------- */
+.message-main {
+  margin-top: 5em;
+}
+
+.message-main__txt {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 3em;
+}
+
+.message__copy {
+  padding: 1em 1em 1em;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  color: #189240;
+  font-size: 1.625em;
+}
+
+.message__sign {
+  margin-top: 5em;
+}
+
+.message__sign-company {
+  font-weight: 500;
+  text-align: right;
+}
+
+.message__sign-img {
+  display: inline-block;
+  width: 8em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+
+.message__sign-representative {
+  margin-top: 1em;
+  font-size: 1.25em;
+  text-align: right;
+}
+
+.message__sign-job {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.1em 0.5em 0.2em;
+  border-radius: 5px;
+  background-color: #cfe1e5;
+  font-size: 0.9em;
+}
+
+.message__sign-name {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.message-main__img {
+  width: 38%;
+}
+
+.message-container {
+  margin-top: 3em;
+}
+.message-container + .message-container {
+  margin-top: 4em;
+  padding-top: 4em;
+  border-top: 6px solid #ddd;
+}
+
+.message-container__txt {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-right: 3em;
+}
+
+.message-container__img {
+  width: 43%;
+}
+
+.message-secondary {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.message-secondary .message-container__txt {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-right: 0;
+  padding-left: 3em;
+}
+
+.history-time {
+  color: #189240;
+  font-weight: 500;
+}
+
+.history-cnt::before {
+  margin-right: 0.2em;
+  content: "--";
+}
+.history-cnt + .history-time {
+  margin-top: 1em;
+}
+@media screen and (max-width: 1100px) {
+  /* 代表メッセージ */
+}
+@media screen and (max-width: 840px) {
+  /* 代表メッセージ */
+  .message__copy {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* 代表メッセージ */
+  .message-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .message-main__txt {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 100%;
+    padding-left: 0;
+  }
+  .message__copy {
+    font-size: 1.375em;
+  }
+  .message__sign {
+    margin-top: 3em;
+  }
+  .message__sign-company {
+    text-align: center;
+  }
+  .message__sign-representative {
+    text-align: center;
+  }
+  .message-main__img {
+    width: 100%;
+    padding: 3em 3em 0;
+  }
+  .message-container__txt {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding: 0;
+  }
+  .message-container__img {
+    width: 100%;
+    padding: 3em 1em 0;
+  }
+  .message-secondary .message-container__txt {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding: 0;
+  }
+}

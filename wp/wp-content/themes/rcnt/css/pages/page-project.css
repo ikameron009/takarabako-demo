@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* --------------------------------------------
+   プロジェクト事例
+-------------------------------------------- */
+.project-slide-area {
+  padding: 4em 2em;
+  background-color: #EFEEEC;
+}
+
+.project-slide-designer {
+  display: block;
+  margin-top: 1em;
+  color: #4B3535;
+  font-size: 0.9em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
+  border-radius: 5px !important;
+  background-color: #4B3535 !important;
+}
+
+.ms-skin-default .ms-nav-prev {
+  left: -3em !important;
+}
+
+.ms-skin-default .ms-nav-next {
+  right: -3em !important;
+}
+
+.project-other {
+  margin-top: -2em;
+}
+
+.project-other-item {
+  width: 45%;
+  margin-top: 3em;
+}
+
+.project-other-item__lnk {
+  display: block;
+}
+
+.project-other-item__img {
+  border: 2px solid #189240;
+  border-radius: 5px;
+}
+
+.project-other-item__ttl {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.project-other-item__ttl a {
+  color: #4B3535;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.project-other-item__ttl a:hover {
+  border-bottom: 2px dotted #4b3535;
+  text-decoration: none;
+}
+
+.project-other-item__designer {
+  display: block;
+  margin-top: 1em;
+  color: #4B3535;
+  font-size: 0.8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1100px) {
+  /* プロジェクト事例 */
+}
+
+@media screen and (max-width: 840px) {
+  /* プロジェクト事例 */
+}
+
+@media screen and (max-width: 480px) {
+  /* プロジェクト事例 */
+  .project-other-item {
+    width: 100%;
+  }
+}
